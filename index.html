@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marwan Atia-Elkaseh - Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 80px 0 60px;
+            border-bottom: 1px solid #eee;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 2px solid #333;
+            padding-bottom: 2px;
+            transition: opacity 0.2s;
+        }
+
+        .links a:hover {
+            opacity: 0.6;
+        }
+
+        section {
+            padding: 60px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: #555;
+            max-width: 700px;
+        }
+
+        .projects {
+            display: grid;
+            gap: 40px;
+        }
+
+        .project {
+            display: grid;
+            gap: 15px;
+        }
+
+        .project h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .project p {
+            color: #666;
+            line-height: 1.7;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 5px;
+        }
+
+        .project-links a {
+            color: #333;
+            text-decoration: none;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #999;
+            padding-bottom: 1px;
+            transition: opacity 0.2s;
+        }
+
+        .project-links a:hover {
+            opacity: 0.6;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            padding: 8px 16px;
+            background: #f5f5f5;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .contact p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-bottom: 2px solid #333;
+            padding-bottom: 2px;
+            transition: opacity 0.2s;
+        }
+
+        .contact a:hover {
+            opacity: 0.6;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            section {
+                padding: 40px 0;
+            }
+
+            header {
+                padding: 60px 0 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Marwan Atia-Elkaseh</h1>
+            <p class="subtitle">Software Developer & Algorithm Specialist</p>
+            <div class="links">
+                <a href="https://github.com/Marwan2505" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/marwan-a-a471ab265/" target="_blank">LinkedIn</a>
+                <a href="mailto:marwanelkaseh@gmail.com">Email</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>About</h2>
+            <p class="about-text">
+                I'm a developer with strong expertise in algorithms and systems programming. I specialize in Python and C++, with experience spanning multiple languages and a focus on solving complex computational problems. Currently expanding my skills in Rust and passionate about algorithmic optimization.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Honours Thesis: Traveling Salesman Problem Analysis</h3>
+                    <p>A comprehensive comparative analysis and algorithmic approach to solving the Traveling Salesman Problem. Research conducted under the supervision of Prosenjit Bose, exploring various optimization techniques and algorithmic strategies for this classic NP-hard problem.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Marwan2505/TSP-Analysis_Thesis" target="_blank"">View Paper →</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Reinforcement Learning for Flappy Bird</h3>
+                    <p>Developed a reinforcement learning algorithm using deep neural networks to train an agent to play Flappy Bird. Implemented in Python using PyTorch, the project demonstrates practical applications of deep Q-learning and neural network optimization.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Source Code →</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Elevator Control System</h3>
+                    <p>Comprehensive elevator simulation program developed in C++ with complete software engineering documentation including traceability matrix, UML diagrams, sequence diagrams, and state diagrams. Tested and validated using Qt Software for real-time simulation.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Marwan2505/Elevator-Program" target="_blank">Source Code →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">Python</span>
+                <span class="skill">C++</span>
+                <span class="skill">Java</span>
+                <span class="skill">C</span>
+                <span class="skill">C#</span>
+                <span class="skill">Haskell</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">SQL</span>
+                <span class="skill">Rust (Learning)</span>
+                <span class="skill">PyTorch</span>
+                <span class="skill">Qt Framework</span>
+                <span class="skill">Algorithms & Data Structures</span>
+                <span class="skill">Statistical Analysis</span>
+            </div>
+        </section>
+
+        <div class="contact">
+            <p>Let's work together</p>
+            <a href="mailto:marwanelkaseh@gmail.com">Get in touch →</a>
+        </div>
+    </div>
+</body>
+</html>
